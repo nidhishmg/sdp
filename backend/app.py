@@ -1,7 +1,7 @@
 from flask import Flask, request, render_template
 from datetime import datetime
 
-app = Flask(__name__, template_folder="../frontend", static_folder="static")
+app = Flask(__name__, template_folder="frontend", static_folder="static")
 
 # ─────────────────────────────────────────────
 # Existing routes
